@@ -1,0 +1,194 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #eef2ff, #dbeafe);
+    color: #333;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    margin: 20px 0;
+    color: #5b4b8a;
+}
+
+/* Contenedor */
+.container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(123, 104, 238, 0.15);
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c7d2fe;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a78bfa;
+    box-shadow: 0px 0px 5px rgba(167, 139, 250, 0.5);
+}
+
+/* Botones */
+button {
+    background: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #992bff;
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+/* LINKS DEL MENU */
+
+a {
+    display: -block;
+
+    margin: 10px;
+
+    text-decoration: none;
+
+    color: white;
+
+    background: #946ad7;
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #7e57c2;
+}
+
+/* BOTON VOLVER */
+
+a[href="../index.html"] {
+
+    position: fixed;
+
+    top: 20px;
+
+    right: 20px;
+}
+
+
+/* ===== PAGINA PRINCIPAL ===== */
+
+body{
+    background: linear-gradient(to bottom right, #f5edff, #e0e7ff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* TITULO */
+
+h1{
+    color: #6d28d9;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #744cb6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* LINKS MENU */
+
+a{
+    display: inline-block;
+
+    background-color: #c4b5fd;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    margin: 10px;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+/* EFECTO */
+
+a:hover{
+    background-color: #8b5cf6;
+
+    transform: scale(1.05);
+}
+
+/* MENU PRINCIPAL */
+
+body{
+    text-align: center;
+}
+
+/* CONTENEDOR DE LINKS */
+
+nav{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 40px;
+}
+
+/* LINKS */
+
+nav a{
+    width: 180px;
+
+    text-align: center;
+}
+
+img{
+    width: 700px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
